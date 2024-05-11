@@ -7,7 +7,7 @@
     <style>
         /* 标签选择器样式定义 */
         p {
-            font-size: 40px;
+            font-size: 60px;
         }
 
         /* 类选择器样式定义 */
@@ -19,18 +19,25 @@
             font-size: 30px;
         }
 
+        /* id选择器 */
         #title {
             background-color: gray;
         }
 
+        /* 通配符选择器 */
+        * {
+            font-weight: 900;
+        }
     </style>
 </head>
 <body>
-    <p>标签选择器</p>
+    <p>标签选择器：设置字体60px</p>
 
     <!-- 使用已经定义好的类选择器样式 -->
-    <div class="color size">类选择器</div>
+    <div class="color size">类选择器：设置字体红色，大小30px</div>
 
-    <h1 id="title">这是一个一级标题</h1>
+    <h1 id="title">ID选择器：背景置为灰色</h1>
+
+    <button>通配符选择器：字体加粗900</button>
 </body>
 </html>
